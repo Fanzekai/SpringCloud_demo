@@ -1,0 +1,10 @@
+server:
+  port: 9001
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
